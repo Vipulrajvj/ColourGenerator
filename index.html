@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Colour Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- For creating the navigation bar-->
+
+    <nav>
+        <div class="nav-center">
+            <h4>Colour Generator</h4>
+            <!--Unordered list for the navigation bar -->
+            <!-- a is used for linking the 2 different pages-->
+
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">simple</a>
+                </li>
+
+                <li>
+                    <a href="hex.html">hex</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- use .container to create the class instead of writing everything -->
+    <!--id is used for the javascript in the button section-->
+    <main>
+        <div class="container">
+            <!--Using span to wrap the h1 with colour inside-->
+            <h2>Create simple colour : <span class="color">#f1f5f8</span></h2>
+            <button class="btn btn-hero" id="btn">Create</button>
+        </div>
+    </main>
+    <script src="colour.js"></script>
+</body>
+
+</html>
